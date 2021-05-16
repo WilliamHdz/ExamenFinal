@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vuelos</title>
+</head>
+
+<body background="cielo.jpg" >
+
+    <center><h1>VENTA DE BOLETOR AEROLINEA:</h1></center>
+
+    <h3>Tipos de vuelo:</h3>
+    <input type="radio" name="vuelo"> Primera clase<br>
+    <input type="radio" name="vuelo"> Segunda clase<br>
+    <input type="radio" name="vuelo"> Tercera clase<br><br>
+
+
+    <h3>Precios:</h3>
+    <table border="1">
+        <tr>
+            <td>Clase</td>
+            <td>Comida</td>
+            <td>Bebida</td>
+            <td>Película</td>
+        </tr>
+
+        <tr>
+          <td>Primera Clase</td>
+          <td>Q 50.00</td>
+          <td>Q 35.00</td>
+          <td>Q 70.00</td>
+        </tr>
+      
+        <tr>
+          <td>Segunda Clase</td>
+          <td>Q 40.00</td>
+          <td>Q 25.00</td>
+          <td>Q 55.00</td>
+        </tr>
+
+        <tr>
+            <td>Tercera Clase</td>
+            <td>Q 25.00</td>
+            <td>Q 10.00</td>
+            <td>Q 25.00</td>
+          </tr>
+        
+      
+      </table>
+      <br>
+    <h3>Servicios:</h3>
+
+    <input type="checkbox"> Comida<br>
+    <input type="checkbox"> Bebida<br>
+    <input type="checkbox"> Agua<br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br>
+
+<a href="{% url 'logout' %}"> Cerrar sesión</a>
+</body>
+
+</html>

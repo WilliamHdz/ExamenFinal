@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Login</title>
+
+  <link rel='stylesheet' href='http://codepen.io/assets/libs/fullpage/jquery-ui.css'>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <div class="login-card">
+    <center><h1>INGRESO</h1><br></center>
+  <form method="POST">
+    {% csrf_token %}
+    <center><input type="text" name="username" placeholder="Ingrese el username"></center>
+    <br></br>
+    <center><input type="password" name="password" placeholder="Ingrese la contraseña"></center>
+    <br></br>
+    <center><input type="submit" class="login login-submit" value="Ingresar"></center>
+  </form>
+</div>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery_and_jqueryui.js'></script>
+
+</body>
+
+</html>
